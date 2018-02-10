@@ -1,0 +1,44 @@
+/* Mobile styles, simply because we do mobile first */
+.reg-form {
+
+}
+
+/* Desktop styles, simply because we do desktop last */
+@media (min-width: 640px) {
+    .reg-form {
+        background: #054825;
+        margin: 50px auto;
+        width: 600px;
+        color: #fff;
+        padding: 50px;
+        min-height: 400px;
+    }    
+    
+    h1 {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .form-control {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .btn-wrapper {
+        text-align: center;
+    }
+    
+    .btn-wrapper .btn-primary {
+        width: 60%;
+    }
+
+    .successful-reg {
+        margin: 50px auto;
+        width: 500px;
+        color: #000;
+    }
+
+    .successful-reg a {
+        color: #f4733a;
+    }
+}

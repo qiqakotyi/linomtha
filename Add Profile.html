@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Carerott| New Account</title>
+    <link rel="favicon" type="image/png" href="img/carrot1.png">
+    <link rel="icon" href="img/carrot1.png" type="image/png"/>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body class="page-wrap"  ng-controller="SignUpController as ctrl">
+        <div class="container" id="wrap">
+         <a class="" href="Home.html"><img class="logo-img img-responsive " src="img/logo.png"> </a>
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <form action="r" method="post" accept-charset="utf-8" class="form" role="form" name="ctrl.signupForm" ng-submit="ctrl.signup()" novalidate>
+                    <legend>Place Rental Ad</legend>
+                    <h4></h4>
+                    <div class="row">
+                    <div class="col-xs-6 col-md-6" ng-class="{'has-error':ctrl.hasErrorClass('firstname')}">
+                            <input type="text" required name="firstname" value="" id="firstname" class=" firstname form-control input-lg" placeholder="Your Location"   
+                            ng-model="ctrl.newCustomer.userName" ng-model-options="{ updateOn : 'default blur' }"
+                            ng-focus="ctrl.toggleUsernamePrompt(true)" ng-blur="ctrl.toggleUsernamePrompt(false)"/> 
+
+                            <div class="my-messages" ng-messages="ctrl.signupForm.firstname.$error" ng-if="ctrl.showMessages('firstname')">
+                                <div class="message-animation" ng-message="required">
+                                    <strong>Rental Categories Options</strong>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-xs-6 col-md-6">
+                                <input type="text" name="Province." value="" class="form-control input-lg" placeholder="Province"  />                        </div>
+                            </div>
+                            <input type="text" name="Offering & Photo" value="" class="form-control input-lg" placeholder="Name, Contact etc"/>                    
+                            <div class="row">
+                                <div class="col-xs-4 col-md-4">
+                              <label>Item</label>                    
+
+                                    <select name="month" class = "form-control input-lg">
+                                        <option value="01">Mobile Fridges</option>
+                                       	
+                                        
+                                    </select>                        
+                                </div>
+
+                                <div class="col-xs-4 col-md-4">
+                                <label>Quantity</label>    
+                                    <select name="day" class = "form-control input-lg">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        
+                                    </select>                        
+                                </div>
+                                <div class="col-xs-4 col-md-4">
+                                  <label>Rate Per day</label>                    
+                                    <select name="year" class = "form-control input-lg">
+                                    <option value="1936">R7,49.00</option>
+                                           
+                                    </select>                        
+                                </div>
+								
+                                </div>
+                                 
+                                    
+                                    <span class="help-block">Update your product rental information and pricing    </span>
+                                    <a href="Landing Home.html" class="btn btn-lg btn-primary btn-block signup-btn" type="submit">
+                                        Update </a>
+                                    </form>  
+									
+                                </div>
+                            </div>            
+                        </div>
+                    </div>
+					
+                </body>
+                </html>
+
