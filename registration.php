@@ -16,6 +16,9 @@ Website: http://www.allphptricks.com/
 <link rel="stylesheet" href="css/register.css" />
 </head>
 <body>
+
+<?php include 'nav.php' ?>
+
 <?php
 	require('db.php');
     // If form submitted, insert values into the database.

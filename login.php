@@ -4,11 +4,13 @@
 <meta charset="utf-8">
 <title>Login</title>
 
-<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="CareRott_files/bootstrap.css" />
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/login.css" />
 </head>
 <body>
+<?php include 'nav.php' ?>
+<!-- Navigation -->
 <?php
 	require('db.php');
 	session_start();

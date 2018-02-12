@@ -7,7 +7,7 @@
 @media (min-width: 640px) {
     .login-form {
         background: #054825;
-        margin: 50px auto;
+        margin: 100px auto;
         width: 600px;
         color: #fff;
         padding: 50px;
@@ -34,10 +34,11 @@
 
     .img-wrapper img {
         width: 250px;
+        margin: 0 auto;
     }
 
     .form-control {
-        width: 60%;
+        width: 60% !important;
         margin: 0 auto;
     }
     

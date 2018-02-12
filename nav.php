@@ -7,23 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap Core CSS -->
     <link href="CareRott_files/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="CareRott_files/agency.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="CareRott_files/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="CareRott_files/css_002.css" rel="stylesheet" type="text/css">
-    <link href="CareRott_files/css_003.css" rel="stylesheet" type="text/css">
-    <link href="CareRott_files/css.css" rel="stylesheet" type="text/css">
-    <link href="CareRott_files/css_004.css" rel="stylesheet" type="text/css">
-    <link href="css/reset.css"> 
+    <link href="css/nav.css" rel="stylesheet">
  
 </head>
 <body>
 
  <!-- Navigation -->
- <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+ <nav class="navbar navbar-default navbar-fixed-top navbar-shrink top-nav">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">

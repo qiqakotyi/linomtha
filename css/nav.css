@@ -1,0 +1,11 @@
+.top-nav {
+    min-height: 70px;
+    background: #054825;
+    padding: 10px 0;
+    
+}
+
+.top-nav a {
+    color: #fff !important;
+    font-weight: bold;    
+}
