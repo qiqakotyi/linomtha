@@ -11,8 +11,9 @@ Website: http://www.allphptricks.com/
 <meta charset="utf-8">
 <title>Registration</title>
 
-<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="CareRott_files/bootstrap.css" />
 <link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/nav.css" />
 <link rel="stylesheet" href="css/register.css" />
 </head>
 <body>
