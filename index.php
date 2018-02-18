@@ -15,6 +15,13 @@
     <!-- Bootstrap Core CSS -->
     <link href="CareRott_files/bootstrap.css" rel="stylesheet">
 
+    <!-- Bootstrap Core CSS -->
+    <link href="owl-carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="owl-carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="owl-carousel/dist/assets/owl.theme.green.min.css"  rel="stylesheet">
+    <link href="css/owl-carousel.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link href="CareRott_files/agency.css" rel="stylesheet">
 
@@ -24,7 +31,7 @@
     <link href="CareRott_files/css_003.css" rel="stylesheet" type="text/css">
     <link href="CareRott_files/css.css" rel="stylesheet" type="text/css">
     <link href="CareRott_files/css_004.css" rel="stylesheet" type="text/css">
-    <link href="css/reset.css">
+    <link href="css/reset.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -42,14 +49,14 @@
     <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header ">
                 <button aria-expanded="false" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-            <a class="navbar-brand page-scroll" href="#page-top"><img src="CareRott_files/logo.png" alt="Logo" height="50" width="171"></a> </div>
+            <a class="navbar-brand" href="#page-top"><img src="CareRott_files/logo.png" alt="Logo" height="50" width="171"></a> </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div style="height: 0.8px;" aria-expanded="false" class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
@@ -62,10 +69,10 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li> 
+                    </li> -->
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>-->
+                        <a class="page-scroll" href="index.php">Home</a>
+                    </li>
                     <li class="">
                         <a class="page-scroll" href="#team">About Us</a>
                     </li>
@@ -77,7 +84,7 @@
                             <a class="page-scroll" href="login.php">Login</a>
                         </li>
                     <?php } else {?>
-                        <li><a href="dashboard.php">Dashboard</a></li>
+                        <li><a href="view.php">Profile</a></li>
                         <li class="">
                         <a href="logout.php">Logout</a>
                         </li>
@@ -91,14 +98,44 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="intro-text">
-                <p>Welcome <?php echo $_SESSION['username']; ?><?php echo $_SESSION['username']; ?>!</p>
-                <div class="intro-lead-in">Connecting Visionaries</div>
-                <div class="intro-heading">Join the movement</div>
-                <a href="#services" class="page-scroll btn btn-xl">APP Coming Soon </a>
+        <div class="owl-carousel owl-theme owl-loaded owl-drag">
+            <div class="item">
+            <img src="img/fridge-2.png" alt="" />
+            <div class="inner">
+                <div class="row row-content">
+                    <div class="col-md-12">
+                        <div class="headline-wrap">
+                            <h1><span class="reveal-text">H1 TITLE</span></h1>
+                            <h2><span class="reveal-text">H2 TITLE</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cta">
+                    <div class="col-md-12 cta-wrap">
+                        <a class="cta-main"><span class="cta-text reveal-text">CTA-MAIN</span></a>
+                    </div>
+                </div>
+                </div>
             </div>
-        </div>
+            <div class="item">
+            <img src="img/toilet-1.jpg" alt="" />
+            <div class="inner">
+                <div class="row row-content">
+                    <div class="col-md-12">
+                            <div class="headline-wrap">
+                            <h1><span class="reveal-text">H1 TITLE</span></h1>
+                            <h2><span class="reveal-text">H2 TITLE</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cta">
+                    <div class="col-md-12 cta-wrap js-cta-wrap">
+                        <a class="cta-main"><span class="cta-text reveal-text">CTA-MAIN</span></a>
+                    </div>
+                </div>
+                </div>
+            </div>  
+    </div>
     </header>
  
     <!-- Team Section -->
@@ -118,13 +155,19 @@
                                     <h4 class="subheading">Meet the team</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">We are a 
-mentorship movement, providing the youth with ongoing career advice, 
-information and guidance required in order for them to make conscious 
-and holistic choices of possible areas of study and concrete career 
-pathways, which in turn will promote academic excellence in high 
-scholars and decrease high drop-out rate in our institutions of higher 
-learning.</p>
+                                    <p class="text-muted">Linomtha is an affiliate-marketing agency designed to help fuel
+                                     innovation and economic growth in South Africa, by building sustainable micro-franchise model that 
+                                    involves a network of entrepreneurs and SMME’s within the hiring services sector linking them 
+                                    together through a shared business operations that includes comprehensive guidelines for:</p>
+                                    
+                                    <ul>
+                                        <li>Technology Selection</li>
+                                        <li>Supply Chain Management</li>
+                                        <li>Customer service</li>
+                                        <li>Quality Control</li>
+                                        <li>Branding &amp; Marketing</li>
+                                        <li>Data Analytics &amp; Reporting</li>
+                                    </ul>
                                 </div>
                             </div>
                 </div>
@@ -143,33 +186,11 @@ learning.</p>
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="CareRott_files/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Pumelela Mpambani</h4>
-                        <p class="text-muted">Marketing &amp; Communications</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+               
             </div>
             <div class="row">
                 <div class="col-lg-12 col-lg-offset-0 text-center">
-                 <h2 class="section-heading">OUR MANDATE</h2>
-                 <h4>The Purpose</h4>
-                    <p class="large text-muted">Is to link the youth in 
-high schools with those in tertiary institutions of learning and 
-corporate professionals around South Africa, Africa and the world to 
-connect and mentor each with career vision, assisting one another to 
-start being proactive, and more assertive about what they enjoy doing, 
-what they envision themselves doing, and how they would like to see 
-their future careers unfold.</p>
+               
                 </div>
             </div>
         </div>
@@ -425,11 +446,11 @@ solution to describe your business and offer your services.</p>
                             <h2>Project Name</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                             <img class="img-responsive img-centered" src="CareRott_files/dreams-preview.png" alt="">
-                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>.
+                            <p>Dreams is a free PSD web template built by Mathavan Jaya</a>.
  Dreams is a modern one page web template designed for almost any 
 purpose. It’s a beautiful template that’s designed with the Bootstrap 
 framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="">FreebiesXpress.com</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -437,15 +458,13 @@ framework in mind.</p>
             </div>
         </div>
     </div>
-
-    <!-- jQuery -->
-    <script src="CareRott_files/jquery_002.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="owl-carousel/dist/owl.carousel.min.js">
 
     <!-- Bootstrap Core JavaScript -->
     <script src="CareRott_files/bootstrap.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="CareRott_files/jquery.js"></script>
     <script src="CareRott_files/classie.js"></script>
     <script src="CareRott_files/cbpAnimatedHeader.js"></script>
 
@@ -456,7 +475,7 @@ framework in mind.</p>
     <!-- Custom Theme JavaScript -->
     <script src="CareRott_files/agency.js"></script>
 
-
-
-
-</body></html>
+    <!-- Custom Script JavaScript -->
+    <script src="js/script.js"></script>    
+</body>
+</html>

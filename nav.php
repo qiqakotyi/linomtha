@@ -23,13 +23,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-            <a class="navbar-brand page-scroll" href="#page-top"><img src="CareRott_files/logo.png" alt="Logo" height="50" width="171"></a> </div>
+            <a class="navbar-brand page-scroll" href="index.php"><img src="CareRott_files/logo.png" alt="Logo" height="50" width="171"></a> </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div style="height: 0.8px;" aria-expanded="false" class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden active">
-                        <a href="#page-top"></a>
+                        <a href="index.php"></a>
                     </li>
                     <!--<li>
                         <a class="page-scroll" href="#services">Services</a>
@@ -51,7 +51,7 @@
                             <a class="page-scroll" href="login.php">Login</a>
                         </li>
                     <?php } else {?>
-                        <li><a href="dashboard.php">Dashboard</a></li>
+                        <li><a href="view.php">Profile</a></li>
                         <li class="">
                         <a href="logout.php">Logout</a>
                         </li>
