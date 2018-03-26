@@ -46,56 +46,7 @@
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header ">
-                <button aria-expanded="false" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            <a class="navbar-brand" href="#page-top"><img src="CareRott_files/logo.png" alt="Logo" height="50" width="171"></a> </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div style="height: 0.8px;" aria-expanded="false" class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden active">
-                        <a href="#page-top"></a>
-                    </li>
-                    <!--<li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li> -->
-                    <li>
-                        <a class="page-scroll" href="index.php">Home</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#team">About Us</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <?php if(!isset($_SESSION["username"])) {  ?>
-                        <li class="">
-                            <a class="page-scroll" href="login.php">Login</a>
-                        </li>
-                    <?php } else {?>
-                        <li><a href="view.php">Profile</a></li>
-                        <li class="">
-                        <a href="logout.php">Logout</a>
-                        </li>
-                    <?php } ?>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
+    <?php include 'nav.php' ?>
     <!-- Header -->
     <header>
         <div class="owl-carousel owl-theme owl-loaded owl-drag">
@@ -105,14 +56,13 @@
                 <div class="row row-content">
                     <div class="col-md-12">
                         <div class="headline-wrap">
-                            <h1><span class="reveal-text">H1 TITLE</span></h1>
-                            <h2><span class="reveal-text">H2 TITLE</span></h2>
+                            <h1><span class="reveal-text">Mobile Fridge</span></h1>
                         </div>
                     </div>
                 </div>
                 <div class="row row-cta">
                     <div class="col-md-12 cta-wrap">
-                        <a class="cta-main"><span class="cta-text reveal-text">CTA-MAIN</span></a>
+                        <a class="cta-main btn btn-sm" href="#contact"><span class="cta-text reveal-text">Book Now</span></a>
                     </div>
                 </div>
                 </div>
@@ -123,14 +73,13 @@
                 <div class="row row-content">
                     <div class="col-md-12">
                             <div class="headline-wrap">
-                            <h1><span class="reveal-text">H1 TITLE</span></h1>
-                            <h2><span class="reveal-text">H2 TITLE</span></h2>
+                            <h1><span class="reveal-text">Mobile Toilet</span></h1>
                         </div>
                     </div>
                 </div>
                 <div class="row row-cta">
                     <div class="col-md-12 cta-wrap js-cta-wrap">
-                        <a class="cta-main"><span class="cta-text reveal-text">CTA-MAIN</span></a>
+                        <a class="cta-main btn btn-sm" href="#contact"><span class="cta-text reveal-text">Book Now</span></a>
                     </div>
                 </div>
                 </div>

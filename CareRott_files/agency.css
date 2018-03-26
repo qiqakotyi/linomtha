@@ -222,18 +222,18 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #f4733a;
+    background-color: #054825;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #f4733a;
+    background-color: #054825;
 }
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 15px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
@@ -342,7 +342,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 50px 0;
     }
 }
 

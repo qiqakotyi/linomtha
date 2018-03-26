@@ -13,3 +13,11 @@
 .navbar-default {
     background-color: #054825 !important;
 }
+
+.navbar-header {
+    margin-left: 27px !important;
+}
+
+.navbar-nav {
+    margin-right: 27px;
+}
